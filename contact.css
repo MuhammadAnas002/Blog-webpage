@@ -1,0 +1,39 @@
+.navigation {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-family: var(--font1);
+    height: 45px;
+    /* background-color: rgb(162, 54, 54); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-content{
+    height: 100vh;
+    /* background-color: rgb(198, 198, 247); */
+    /* display: flex; */
+    /* padding: 15px; */
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url(img/blog3.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.2;
+    border-radius: 15px;
+    background-size: cover;
+    z-index:-1 ;
+}
+
+/* .contact-form{
+    height: ;
+} */
+ 

@@ -1,0 +1,116 @@
+@media screen and (max-width: 893px){
+    .more-post{
+        padding: 8px 13px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navigation {
+        flex-direction: column;
+        height: 122px;
+        margin-bottom: 16px;
+        margin-top: 0;
+    }
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+
+    }
+    .nav-left ul li{
+        margin: 0 4px;
+    }
+    .nav-left a{
+        height: 63px;
+    }
+    .content{
+        height: 100%;
+    }
+    .content-right{
+        display: none;
+    }
+    .yearBox{
+        height: 70px;
+        width: 50px;
+        top: 50px;
+        right: 10px;
+    }
+    .yearBox div{
+        margin: 0;
+    }
+    .yearBox h2{
+        font-size: 22px;
+    }
+    .home-article{
+        flex-direction: column;
+    }
+    .h-a-c{
+        align-self:start;
+    }
+    .row{
+        flex-direction: column;
+        align-items: start;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .navigation{
+        margin-top: 0;
+    }
+    .home-article{
+        padding: 8px 10px;
+    }
+    .form-box input, textarea{
+        width: 70vw;
+    }
+    .nav-left ul li{
+        margin: 0 5px;
+    }
+    .postimg h1{
+        font-size: 25px;
+        top: 20px;
+        left: 70px;
+    }
+    .author-info div{
+        font-size: 14px;
+    }
+    .yearBox div {
+        margin: 0;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 375px){
+    .navigation{
+        margin-top: 0;
+    }
+    .form-input{
+        width: 170px;
+    }
+    .content-left h1{
+        font-size: 28px;
+    }
+    .content-left p{
+        font-size: 14px;
+    }
+    .home-article{
+        padding: 8px 0;
+    }
+    .for-responsive-h2{
+        font-size: 20px;
+    }
+    .home-article-img{
+        width: 155px;
+    }
+    .h-a-c{
+        padding: 8px 20px;
+    }
+    .h-a-c a h4{
+        font-size: 14px;
+    }
+    .contact-content div h2{
+        font-size: 22px;
+        margin: 10px 0;
+    }
+    .author-info div{
+        font-size: 12px;
+    }
+}

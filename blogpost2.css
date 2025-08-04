@@ -1,0 +1,57 @@
+.postimg {
+  height: 175px;
+  overflow: hidden;
+  position: relative;
+}
+
+.postimg img {
+  width: 100%;
+}
+
+.postimg h1 {
+  position: absolute;
+  top: 55px;
+  left: 87px;
+}
+
+.content-post h2 {
+  text-align: center;
+  margin: 4px 0;
+}
+
+.content-post p {
+  font-family: var(--font2);
+  margin: 10px 0;
+}
+.row{
+  display: flex;
+}
+.home-article{
+  flex-direction: column;
+}
+
+.h-a-c{
+  padding: 10px;
+}
+
+.blogpost-meta{
+  /* background-color:rgb(82, 106, 126) ; */
+  display: flex;
+  justify-content: space-between;
+}
+.author-info{
+  margin: 8px 0;
+}
+
+.author-info div{
+  padding:3px;
+  font-family: var(--font1);
+}
+.social{
+  align-self: center;
+  margin: 0 25px;
+}
+.social i{
+  font-size: 20px;
+  cursor: pointer;
+}
